@@ -1,7 +1,7 @@
-*html,{
+*{
     font-family: sans-serif;
-    margin:0;
-    padding:0;
+    margin: 50px;
+    padding: 15px;
 }
 a{
     color: inherit;
@@ -9,46 +9,53 @@ a{
 }
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #067245;
+    margin: 50px;
+    padding: 15px;
+    background-color: #66b8fc;
 }
 .medsos {
-    padding: 5px 0;
-    baekground-color:#050404;  
+    padding: 10px ;
+    baekground-color:#00bfff;  
+    width: 35;
+    height: 10;
 }
 .medsos ul li {
     display: inline-block;
-    color: #ffffff;
+    color: #070707;
+    width: 35;
+    height: 10;
 }
 .container{
-    width: 80%;
-    margine:0 auto;
+    width: 100%;
+    margine: 68px auto;
+    display:;
+    
 }
 
 header {
     border: 1px solid;
     color: white;
-    text-align: inline;
-    padding: 1em
+    text-align: left;
+    padding: 4em
 }
+
 nav {
     border: 1px solid;
     float: right;
     background-color: #067245;
     color: white;
-    padding: 0.10em;
+    padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    text-decoration: none;
+    margin: 50px;
+    padding: 50px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 5px;
+    display: inline-block;
+    margin-right: 50px;
 }
 
 nav a {
@@ -58,12 +65,41 @@ nav a {
 }
 
 section {
-    padding: 40px;
+    padding: 35px;
+    width: 100%;
+    margin: 50px;
 }
+.section= "Beranda"{
+    font-weight:14vw;
+    padding: 15px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;" 
+}
+.section.id="about"{
+    font-weight:14vw;
+}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #050101;
+    text-align: left;
+    padding: 8px;
+    color :#ecf4f7;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #4d4c4c;
+  }
 
 img {
-    max-width: 14%;
-    height: auto;
+    max-width: 35%;
+    height: 15% auto;
 }
 
 footer {
@@ -73,5 +109,6 @@ footer {
     padding: 1em; 
     position: fixed;
     bottom: 0;
-    width: 89%;
+    width: 500px;
+    height: 100px; 
 }
